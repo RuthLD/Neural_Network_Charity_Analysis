@@ -32,3 +32,5 @@ The purpose of this analysis was to use a neural network to help a non-profit id
   * The relu activation was added for layers 1 and 2 was used as they had the highest accuracy of the activations tried.
   * Neurons in the hidden layers were reassigned several times starting with relatively small numbers (15, 7) to progressively higher (85,50) with out seeing an improvement in accuracy.
 ## Summary
+* The model seems to hit a limit at 73% accuracy with few of the optimization efforts offering improvements for determining if an application was successful. 
+* Random Forest could be a useful model to solve the classification problem as there are many categorical variables in the data.
